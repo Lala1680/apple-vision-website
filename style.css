@@ -1,0 +1,105 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: SF PRO DISPLAY;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    position: relative; 
+    overflow: hidden;
+}
+#page{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #000;
+}
+#page>nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    height: 7vh;
+    width: 70vw;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #000;
+    color: white;
+}
+#page>nav>h3{
+    font-weight: 600;
+}
+#buttons {
+    display: flex;
+    align-items: center;
+    font-size: small;   
+}
+
+#buttons button {
+    font-size: small;
+    color: white;
+    border-radius: 50px;
+    padding: 3px 10px;
+    border: none;
+    background-color: transparent;
+    cursor:  pointer;
+}
+#buttons button:last-child{
+    background-color: blue;
+}
+#buttons a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px; 
+    font-weight: 120;
+}
+#buttons .demo-btn {
+    margin-right: 20px;
+    border: 1px solid white;
+}  
+#page>video{
+    height: 100%;
+    width: 50%;
+    object-fit: cover;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#page-bottom{
+    height: 20%;
+    width: 25%;
+    /* background-color: green; */
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* color: white; */
+} 
+.icon-wrapper{
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.1666666667;
+    margin-top: 20px;
+    padding-bottom: 2px;
+    color: #ff5a00;
+}
+.icon-text:hover{
+    text-decoration: underline;
+}
+#page1{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #fff;
+}
