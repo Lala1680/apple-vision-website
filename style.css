@@ -103,3 +103,80 @@ html, body{
     width: 100vw;
     background-color: #fff;
 }
+#page1>video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#page1>h1{
+    font-size: 3.4vw;
+    color: white;
+    font-weight: 700;
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;   
+}
+#page2{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+#page2>video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#page2>h1{
+    font-size: 3.4vw;
+    color: white;
+    font-weight: 700;
+    position: absolute;
+    text-align: center;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;   
+}
+#page3{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+#page3>video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#page3>h1{
+    font-size: 3.4vw;
+    color: white;
+    font-weight: 700;
+    position: absolute;
+    text-align: center;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;   
+}
+#page4{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+#page4>video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#page4>h1{
+    font-size: 3.4vw;
+    color: white;
+    font-weight: 700;
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;   
+}
