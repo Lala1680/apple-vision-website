@@ -56,7 +56,6 @@ var tl = gsap.timeline({
   scrollTrigger:{
     trigger: `#page1`,
     start: `top top`,
-    end: `60% top`,
     scrub:1,
     scroller:`#main`,
     // markers: true,
@@ -72,7 +71,6 @@ var tl1 = gsap.timeline({
   scrollTrigger:{
     trigger: `#page2`,
     start: `top top`,
-    end: `60% top`,
     scrub:1,
     scroller:`#main`,
     pin: true,
@@ -87,7 +85,6 @@ var tl2 = gsap.timeline({
   scrollTrigger:{
     trigger: `#page3`,
     start: `top top`,
-    end: `60% top`,
     scrub:1,
     scroller:`#main`,
     pin: true,
@@ -98,19 +95,15 @@ tl2.to("#page3>h1",{
   opacity: 0,
 });
 
-var tl3 = gsap.timeline({
+var tl4 = gsap.timeline({
   scrollTrigger: {
-    trigger: `#page4`,
+    trigger: `#page5`,
     start: `top top`,
-    end: `60%`, 
-    scrub: 1,
+    scrub:1,
     scroller: `#main`,
     pin: true
   }
 });
-   tl3.fromTo("#page4>h1:nth-of-type(1)", {autoAlpha: 0, top: "90vh"}, {autoAlpha: 1, top: "0%", duration: 0.5})
-   .to("#page4>h1:nth-of-type(1)", {autoAlpha: 0, top: "-50%", duration: 0.5}, 0.5)
-   .fromTo("#page4>h1:nth-of-type(2)", {autoAlpha: 0, top: "90vh"}, {autoAlpha: 1, top: "0%", duration: 1}, 0.5)  
-   .to("#page4>h1:nth-of-type(2)", {autoAlpha: 0, top: "-50%", duration: 0.5}, 1) 
-   .to("#page4", {pin: false});
-
+tl4.to("#page5>#center-page5",{
+  top:`-50%`
+});
